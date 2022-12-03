@@ -88,11 +88,11 @@ def eval_combo_p2(combo):
             return 3 + shape_keys[combo[0]][1]
         case "win":
             match opponent:
-                case "rock":  # pick scissors to win
+                case "rock":  # pick paper to win
                     shape_points = shape_keys["B"][1]
-                case "paper":  # pick rock to win
+                case "paper":  # pick scissors to win
                     shape_points = shape_keys["C"][1]
-                case "scissors":  # pick paper to win
+                case "scissors":  # pick rock to win
                     shape_points = shape_keys["A"][1]
             return 6 + shape_points
 
