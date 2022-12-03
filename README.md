@@ -23,3 +23,8 @@ Today's puzzle was significantly harder than yesterday's. It gave me the opportu
 I believe my solution can be refactored heavily, but am unsure how to start doing so. I am going to look at other solutions online to try and find if there was an easier more elegant way to obtain the answer.
 
 After watching [this youtube video](https://www.youtube.com/watch?v=gLlj_P8edJY), I did refactor my solution in a similar way. My refactor is structured nearly the same as my first solution, but it uses more helper functions. The readability is improved and it is more clear what is going on now.
+
+### Day 3
+I was up past midnight on a weekend so I decided to do this puzzle closer to its actual release. I felt more comfortable this time around, having experienced the previous two puzzles already. I wrote a lot better code out of gate. Breaking down parts of the logic into their own functions helped with not having messy code upfront.
+
+I did refactor a function after getting the requirements for part 2 into a function that works for both parts of the puzzle. I also used a helper function found on [Stack OverFlow](https://stackoverflow.com/a/434328) for helping with grouping elements into chunks of a set size inside of a list.
