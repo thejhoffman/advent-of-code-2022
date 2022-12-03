@@ -21,3 +21,5 @@ Other concepts I encountered while working on today's puzzle.
 Today's puzzle was significantly harder than yesterday's. It gave me the opportunity to try out python 3.10's `match` feature. My resulted still ended up looking like a giant if-else mess, but I was still able to get the result and solve the puzzle.
 
 I believe my solution can be refactored heavily, but am unsure how to start doing so. I am going to look at other solutions online to try and find if there was an easier more elegant way to obtain the answer.
+
+After watching [this youtube video](https://www.youtube.com/watch?v=gLlj_P8edJY), I did refactor my solution in a similar way. My refactor is structured nearly the same as my first solution, but it uses more helper functions. The readability is improved and it is more clear what is going on now.
