@@ -33,3 +33,5 @@ I did refactor a function after getting the requirements for part 2 into a funct
 Not much to say for today's puzzle. I believe I have found a good rhythm fow now. I did not run into many hurdles on this puzzle. Getting the data into the shape that I wanted was probably the hardest thing.
 
 One new thing I did learn after going back to look at other solutions for day 3, is python's built in [intersection](https://www.w3schools.com/python/ref_set_intersection.asp) function. This function would also be applicable for today's problem as well. I may considering using it going forward.
+
+I did some more research and found [an article](https://betterprogramming.pub/a-visual-guide-to-set-comparisons-in-python-6ab7edb9ec41) showcasing more methods of comparing sets in python. I ending implementing an alternate solution using both `issubset` and `intersection` for this puzzle.
