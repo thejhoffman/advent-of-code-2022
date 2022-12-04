@@ -10,8 +10,8 @@ with open(path) as f:
 # Create a list of the RPS combinations suggested by guide
 guide = [line.split(" ") for line in lines.split("\n")]
 
-
 # PART ONE -------------------------------------------------------------------
+
 
 # define function to evaluate result of a combination
 def eval_combo(combo):
@@ -54,8 +54,8 @@ p1_solution = sum([eval_combo(combo) for combo in guide])
 print("---PART ONE---")
 print("Answer to puzzle:", p1_solution)
 
-
 # PART TWO -------------------------------------------------------------------
+
 
 # define function to evaluate result of a combination, altered
 def eval_combo_p2(combo):

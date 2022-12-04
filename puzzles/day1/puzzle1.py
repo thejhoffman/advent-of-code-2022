@@ -1,7 +1,6 @@
 import os
 import heapq
 
-
 # Setting up the data --------------------------------------------------------
 
 # Read the input file
@@ -25,6 +24,7 @@ elf_totals = [sum(elf) for elf in elves]
 
 # PART ONE -------------------------------------------------------------------
 
+
 # Method 1 - Find the elf with most calories
 most_calories = 0
 for elf in elf_totals:
@@ -40,6 +40,7 @@ print("Answer to puzzle method 1:", most_calories)
 print("Alternate method 2 answer:", alternate)
 
 # PART TWO -------------------------------------------------------------------
+
 
 # Method 1 - Find top three elves with most calories
 first, second, third = -1, -1, -1

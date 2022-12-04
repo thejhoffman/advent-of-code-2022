@@ -67,7 +67,6 @@ p1_solution = sum([score_round(combo) for combo in guide])
 print("---PART ONE---")
 print("Answer to puzzle:", p1_solution)
 
-
 # PART TWO -------------------------------------------------------------------
 
 
