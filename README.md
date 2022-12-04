@@ -28,3 +28,8 @@ After watching [this youtube video](https://www.youtube.com/watch?v=gLlj_P8edJY)
 I was up past midnight on a weekend so I decided to do this puzzle closer to its actual release. I felt more comfortable this time around, having experienced the previous two puzzles already. I wrote a lot better code out of gate. Breaking down parts of the logic into their own functions helped with not having messy code upfront.
 
 I did refactor a function after getting the requirements for part 2 into a function that works for both parts of the puzzle. I also used a helper function found on [Stack OverFlow](https://stackoverflow.com/a/434328) for helping with grouping elements into chunks of a set size inside of a list.
+
+### Day 4
+Not much to say for today's puzzle. I believe I have found a good rhythm fow now. I did not run into many hurdles on this puzzle. Getting the data into the shape that I wanted was probably the hardest thing.
+
+One new thing I did learn after going back to look at other solutions for day 3, is python's built in [intersection](https://www.w3schools.com/python/ref_set_intersection.asp) function. This function would also be applicable for today's problem as well. I may considering using it going forward.
