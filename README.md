@@ -35,3 +35,10 @@ Not much to say for today's puzzle. I believe I have found a good rhythm fow now
 One new thing I did learn after going back to look at other solutions for day 3, is python's built in [intersection](https://www.w3schools.com/python/ref_set_intersection.asp) function. This function would also be applicable for today's problem as well. I may considering using it going forward.
 
 I did some more research and found [an article](https://betterprogramming.pub/a-visual-guide-to-set-comparisons-in-python-6ab7edb9ec41) showcasing more methods of comparing sets in python. I ending implementing an alternate solution using both `issubset` and `intersection` for this puzzle.
+
+### Day 5
+This puzzle was significantly harder this time around, but  not because the logic in the puzzle itself was hard, but reading the contents of the input was.
+
+I resisted the urged to hardcode in the initial stack of data, since I wanted it work dynamically base off of any input. In the end I was able to get it work.
+
+I used a mix of splits and regex filtering. This helped me understand regex a littler bit more, but during my research, I only scratched the surface of regex. I need to spent some time learning the ins and outs of how regex functions.
