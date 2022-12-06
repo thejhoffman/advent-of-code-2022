@@ -42,3 +42,6 @@ This puzzle was significantly harder this time around, but  not because the logi
 I resisted the urged to hardcode in the initial stack of data, since I wanted it work dynamically base off of any input. In the end I was able to get it work.
 
 I used a mix of splits and regex filtering. This helped me understand regex a littler bit more, but during my research, I only scratched the surface of regex. I need to spent some time learning the ins and outs of how regex functions.
+
+### Day 6
+Today's puzzle was very easy this time around. I do not have anything else to really say about today's puzzle.
