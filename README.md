@@ -45,3 +45,10 @@ I used a mix of splits and regex filtering. This helped me understand regex a li
 
 ### Day 6
 Today's puzzle was very easy this time around. I do not have anything else to really say about today's puzzle.
+
+### Day 7
+This puzzle was fairly difficult this time. I was not sure were to start with this one, I did look online first to get an idea on how to begin. I looks like this problem benefits from using a tree structure.
+
+I built my own class for this and used recursion for looping through the commands. One takeaway I gained from this was that I ran into python's recursion depth limit. I looked online and found out that the limit can be overridden, but it is not recommended to do so.
+
+I ended up overriding that limit to get the solution to the puzzle for the time being, but a refactor should be done to remove the recursion element.
